@@ -7,8 +7,12 @@
   - Second, add all of the feature maps for channel: $[4 \times 4]$
   
  
-- Result
+- Results
 
 <p align="center">
 <img src='./result.png'>
+</p>
+
+<p align="center">
+<img src='./result2.png'>
 </p>
