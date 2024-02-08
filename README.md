@@ -10,7 +10,7 @@
 - Results
 
 <p align="center">
-<img src='./result.png'>
+<img src='./result3.png'>
 </p>
 
 <p align="center">
