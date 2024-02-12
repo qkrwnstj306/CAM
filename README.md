@@ -21,6 +21,11 @@
 
 # Grad_CAM Tutorial
 
-- Use last Conv feature maps and gradients $\alpha_k^c = \frac{1}{Z} \sum_i \sum_j \frac{\partial y^c}{\partial A_{ij}^c}$ : $\alpha^c \in \mathbb{R^{64 \times 1 \times 1}$
+- Use last Conv feature maps and gradients $\alpha_k^c = \frac{1}{Z} \sum_i \sum_j \frac{\partial y^c}{\partial A_{ij}^c}$ : $\alpha^c \in \mathbb{R}^{64 \times 1 \times 1}$
 - Take linear combination and ReLU activation $\text{ReLU} (\sum_k \alpha_k^c A^k)$ : $[4 \times 4]$
 - Resize the attention map with interpolation: $[32 \times 32]$ 
+
+
+<p align="center">
+<img src='./grad_cam_result.png'>
+</p>
